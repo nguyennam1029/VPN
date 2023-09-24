@@ -48,6 +48,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 88px;
 }
 .menu-item {
     display: flex;
@@ -71,3 +73,86 @@ border: 1px solid #F53855;
 padding: 14px 44px;
 
 }
+
+/* ========================================== START BANNER ============================ */
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+.banner-left--heading {
+  max-width: 555px;
+  color: #0B132A;
+font-family: Rubik;
+font-size: 52px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px;
+}
+.banner-left--des {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+.banner-left--link {
+  padding: 18px 78px;
+  color: #FFF;
+  border-radius: 10px;
+background: #F53838;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+}
+/* ========================================== END BANNER ============================ */
+
+
+
+
+/* <!-- ================== START TOTAL =================== --> */
+
+.total {
+  margin-top: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.total-item {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+
+}
+.total-item--icon {
+  width: 56px;
+  height: 56px;
+  background-color: #FFECEC;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total-item-info--number {
+  color: #0B132A;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+}
+.total-item-info--label {
+  color: #4F5665;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+/* <!-- ================== END TOTAL =================== --> */
+
